@@ -1,3 +1,5 @@
+const hillClimb = require("./hillClimb");
+
 function generateInitialState(size) {
   let state = [];
 
@@ -17,3 +19,4 @@ function generateInitialState(size) {
 
 const size = 4;
 const initialState = generateInitialState(size);
+hillClimb(initialState);
